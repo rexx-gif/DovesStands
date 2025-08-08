@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DovesStands - Food Bazaar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+</head>
+<body class="dark-theme">
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-logo">DovesStands</div>
+        <div class="loader-spinner"></div>
+        <div class="loader-text">Loading delicious flavors...</div>
+    </div>
+
+ <header>
+    <div class="container">
+        <div class="theme-toggle">
+            <button id="themeToggle">
+                <i class="fas fa-moon"></i>
+                <span>Dark Mode</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+
+    <div class="button-container">
+        <a href="index.html" title="Home">
+          <button class="button"><i class="fas fa-home"></i></button>
+        </a>
+        <a href="#featured" title="Special">
+          <button class="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-star"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" /></svg></button>
+        </a>
+        <a href="#menu" title="Menu">
+          <button class="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-burger"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 15h16a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M12 4c3.783 0 6.953 2.133 7.786 5h-15.572c.833 -2.867 4.003 -5 7.786 -5z" /><path d="M5 12h14" /></svg></button>
+        </a>
+        <a href="#reviews" title="Reviews">
+          <button class="button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" /></svg></button>
+        </a>
+      </div>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Welcome to DovesStands by XI RPL 2</h2>
+            <p>Experience the best street food in town with our carefully crafted menu</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </div>
+    </section>
+
+    <section id="featured" class="section">
+        <div class="container">
+            <h2 class="section-title">Today's Special</h2>
+            <div class="featured-item">
+                <img src="https://imgx.sonora.id/crop/0x0:0x0/x/photo/2020/12/31/1169118254.jpg" alt="Sosis Bakar Special">
+                <div class="featured-content">
+                    <h3>Sosis Bakar Special</h3>
+                    <p>Sosis panggang khas kami dengan saus rahasia, disajikan dengan sayuran segar dan cabai buatan sendiri.</p>
+                    <span class="price">Rp 15,000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="section">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="https://imgx.sonora.id/crop/0x0:0x0/x/photo/2020/12/31/1169118254.jpg" alt="Sosis Bakar">
+                    <h3>Sosis Bakar</h3>
+                    <p>Sosis panggang juicy dengan saus spesial kami</p>
+                    <span class="price">Rp 12,000</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://dikemas.com/uploads/2020/01/gurihnya-usaha-camilan-tela-tela-singkong-cobain-yuks.jpg" alt="Tela Tela">
+                    <h3>Tela Tela</h3>
+                    <p>Keripik singkong renyah dengan berbagai rasa</p>
+                    <span class="price">Rp 10,000</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjkV3TVnTyJigF67Wgl8GaziZ_-dYOn-ZWgw&s" alt="Es Campur">
+                    <h3>Es Campur</h3>
+                    <p>Es campur menyegarkan dengan buah dan sirup</p>
+                    <span class="price">Rp 8,000</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://allofresh.id/blog/wp-content/uploads/2023/08/cara-membuat-mie-ayam-4-780x470.jpg" alt="Mie Ayam">
+                    <h3>Mie Ayam</h3>
+                    <p>Mie ayam gurih dengan kuah kaldu buatan sendiri</p>
+                    <span class="price">Rp 15,000</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7O_eOzA9EOrh0ilt7e13oTIA5hfxEjjTdg&s" alt="Sate Ayam">
+                    <h3>Nasi Kuning</h3>
+                    <p>Harum Kuning, Rasa yang Mengikat Kenangan</p>
+                    <span class="price">Rp 18,000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Our Bazarr</h2>
+            <div class="about-content">
+                <p>Doves Stands adalah proyek bazar sekolah yang digagas oleh para siswa untuk mengembangkan kreativitas, kerja sama tim, dan keterampilan berwirausaha. Kegiatan ini berawal dari ide sederhana di kelas, lalu diwujudkan menjadi ajang seru yang menghadirkan beragam makanan dan minuman.</p>
+                <p>Seluruh menu yang kami sajikan dibuat dengan resep sederhana namun penuh rasa, menggunakan bahan-bahan segar, serta tetap menjaga kebersihan dan kualitas. Bazar ini tidak hanya menjadi tempat untuk menikmati hidangan, tetapi juga sebagai sarana belajar dan berbagi pengalaman berharga.</p>
+                <div class="location">
+                    <h3>Waktu & Lokasi Bazar Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i>Indoor Sasana Krida Wiyata SMKN 1 Bondowoso</p>
+                    <p><i class="fas fa-clock"></i> Buka dari : 07.00 - Sampe Selesai</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="section">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="reviews-container">
+                <div class="reviews-list" id="reviewsList">
+                    <!-- Reviews will be loaded here -->
+                </div>
+                <div class="review-form">
+                    <h3>Share Your Experience</h3>
+                    <form id="reviewForm">
+                        <div class="form-group">
+                            <input type="text" id="reviewName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="reviewText" placeholder="Your Review" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <select id="reviewRating">
+                                <option value="5">★★★★★</option>
+                                <option value="4">★★★★☆</option>
+                                <option value="3">★★★☆☆</option>
+                                <option value="2">★★☆☆☆</option>
+                                <option value="1">★☆☆☆☆</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Submit Review</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DovesStands</h3>
+                    <p>Bringing authentic street food flavors to your neighborhood.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#featured">Special</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-phone"></i>+62 823-3092-7400</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/xirpltweeiii__/"><i class="fab fa-instagram"></i></a>
+
+            <a href="https://wa.me/6282330927400"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DovesStands by XI RPL 2. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+(function() {
+    const savedTheme = localStorage.getItem('theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark-theme');
+    }
+})();
+</script>
+
+</body>
+</html>
